@@ -63,7 +63,7 @@ section {
     display: none;
 }
 
-.mobile {
+article {
     display: block;
     margin: auto;
 }
@@ -83,7 +83,7 @@ section {
         display: block;
     }
 
-    .mobile {
+    article {
         display: none;
     }
 
