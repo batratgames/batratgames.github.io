@@ -4,17 +4,12 @@ html {
 
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-
-    background-color: #333;
 }
 
 body {
-    width: 60%;
     margin: 2% auto;
     padding: 2%;
-    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
     background-color: white;
-    border-radius: 12px;
 }
 
 header img {
@@ -62,6 +57,21 @@ main {
 section {
     margin: 0 0 5%;
     padding: 5%;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        background-color: #333;
+    }
+
+    body {
+        width: 60%;
+        box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+    }
+
+    section {
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+    }
 }
