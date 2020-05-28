@@ -13,7 +13,8 @@ body {
 }
 
 header {
-    width: 60%;
+    margin: auto;
+    width: 80%;
 }
 
 header img {
