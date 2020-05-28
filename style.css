@@ -12,6 +12,10 @@ body {
     background-color: white;
 }
 
+header {
+    width: 60%;
+}
+
 header img {
     width: 28vw;
 }
