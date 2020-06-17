@@ -18,7 +18,7 @@ header {
 }
 
 header img {
-    width: 32vw;
+    width: 28vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,6 +83,10 @@ article {
 @media screen and (min-width: 960px) {
     html {
         background-color: #333;
+    }
+    
+    header img {
+        width: 16vw;
     }
 
     body {
